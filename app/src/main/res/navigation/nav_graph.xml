@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_explore">
+
+    <fragment
+        android:id="@id/nav_explore"
+        android:name="com.example.android.vibes.main_fragments.ExploreFragment"
+        android:label="@string/menu_explore"
+        tools:layout="@layout/fragment_explore">
+
+        <action
+            android:id="@+id/action_nav_explore_to_songsListActivity"
+            app:destination="@id/songsListActivity" />
+
+    </fragment>
+
+    <fragment
+        android:id="@id/nav_library"
+        android:name="com.example.android.vibes.main_fragments.LibraryFragment"
+        android:label="@string/menu_library"
+        tools:layout="@layout/fragment_library" />
+
+    <fragment
+        android:id="@id/nav_profile"
+        android:name="com.example.android.vibes.main_fragments.ProfileFragment"
+        android:label="@string/menu_profile"
+        tools:layout="@layout/fragment_profile">
+
+        <action
+            android:id="@+id/action_nav_profile_to_editProfileFragment"
+            app:destination="@id/editProfileFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.example.android.vibes.main_fragments.EditProfileFragment"
+        android:label="@string/fragment_edit_profile_title"
+        tools:layout="@layout/fragment_edit_profile" />
+
+    <activity
+        android:id="@+id/songsListActivity"
+        android:name="com.example.android.vibes.activities.SongsListActivity"
+        android:label="@string/songs_list_activity_title"
+        tools:layout="@layout/activity_songs_list" />
+
+</navigation>

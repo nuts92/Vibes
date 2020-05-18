@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">Vibes</string>
+
+    <!-- A list of Strings for the Bottom Navigation Menu Items -->
+    <string name="menu_explore">Explore</string>
+    <string name="menu_library">Library</string>
+    <string name="menu_profile">Profile</string>
+
+    <!-- A list of Strings for fragments' and activities' titles that will be used in the navigation graph so that they can be displayed-->
+    <string name="fragment_edit_profile_title">Update Your Profile</string>
+    <string name="songs_list_activity_title">Songs List</string>
+
+    <!-- A list of Strings for the SignUp Authentication Screen-->
+    <string name="sign_up_welcome_title">Welcome to Vibes</string>
+    <string name="sign_up_slogan">Let the Music Speak! Music is the answer</string>
+    <string name="sign_up_google_button">Continue with Google</string>
+    <string name="sign_up_email_button">Continue with Email</string>
+
+    <!-- A list of Strings for the ExploreFragment Screen-->
+    <string name="explore_popular_title">Popular</string>
+    <string name="explore_view_all_button">View All</string>
+    <string name="explore_trending_title">Trending</string>
+    <string name="explore_moods_title">Moods and Activities</string>
+
+    <!-- A list of Strings for the ProfileFragment Screen-->
+    <string name="profile_log_out_button">Log Out</string>
+    <string name="profile_update_button">Update</string>
+    <string name="profile_self_introduction">My Brain is 85% Song Lyrics</string>
+
+    <!-- A list of Strings for the EditProfileFragment Screen-->
+    <string name="edit_profile_title">Update Your Profile</string>
+    <string name="edit_profile_name_hint">Display Name</string>
+    <string name="edit_profile_introduction_hint">Intro about Yourself (Max 3 Lines)</string>
+    <string name="edit_profile_save_button">Save</string>
+
+    <!-- A String for the LibraryFragment Screen-->
+    <string name="library_empty_text">No Saved Songs Yet</string>
+
+    <!-- A list of Strings for the popularList of songs which is stored in the SongListsData Class-->
+    <string name="popular_song_one_name">Sonet El Hayah (feat. Hussain Al Jassmi)</string>
+    <string name="popular_song_one_artist">Orange Egypt</string>
+    <string name="popular_song_two_name">Enta El Nos5a El Aslya Enta Estsna2i (feat. Bahaa Soltan and Mahmoud El Esseily</string>
+    <string name="popular_song_two_artist">Banque Misr</string>
+    <string name="popular_song_three_name">Saved My Life</string>
+    <string name="popular_song_three_artist">Sia</string>
+    <string name="popular_song_four_name">Skechers</string>
+    <string name="popular_song_four_artist">DripReport</string>
+    <string name="popular_song_five_name">Stuck with U</string>
+    <string name="popular_song_five_artist">Ariana Grande and Justin Bieber</string>
+    <string name="popular_song_six_name">Wassellik Khabar</string>
+    <string name="popular_song_six_artist">Nassif Zeytoun</string>
+
+    <!-- A list of Strings for the trendingList of songs which is stored in the SongListsData Class-->
+    <string name="trending_song_one_name">Summer Feelings (feat. Charlie Puth)</string>
+    <string name="trending_song_one_artist">Lennon Stella</string>
+    <string name="trending_song_two_name">Higher Ground (feat. John Martin)</string>
+    <string name="trending_song_two_artist">Martin Garrix</string>
+    <string name="trending_song_three_name">Lose Somebody</string>
+    <string name="trending_song_three_artist">Kygo and OneRepublic</string>
+    <string name="trending_song_four_name">Time</string>
+    <string name="trending_song_four_artist">Mark Shakedown</string>
+    <string name="trending_song_five_name">Say So (feat. Nicki Minaj)</string>
+    <string name="trending_song_five_artist">Doja Cat</string>
+    <string name="trending_song_six_name">Gooba</string>
+    <string name="trending_song_six_artist">6ix9ine</string>
+
+    <!-- A list of Strings for the morningList of songs which is stored in the SongListsData Class-->
+    <string name="morning_song_one_name">Sabah El Kheir</string>
+    <string name="morning_song_one_artist">Amir Eid</string>
+    <string name="morning_song_two_name">Shayef El Bahr</string>
+    <string name="morning_song_two_artist">Fayrouz</string>
+    <string name="morning_song_three_name">Ana Aysha Hala</string>
+    <string name="morning_song_three_artist">Angham</string>
+    <string name="morning_song_four_name">I Love to Drink Coffee With You</string>
+    <string name="morning_song_four_artist">Yasser Farouk</string>
+    <string name="morning_song_five_name">Sunshine</string>
+    <string name="morning_song_five_artist">Munir Bashir</string>
+    <string name="morning_song_six_name">Sun Rise</string>
+    <string name="morning_song_six_artist">Budi Siebert</string>
+
+    <!-- A list of Strings for the eveningList of songs which is stored in the SongListsData Class-->
+    <string name="evening_song_one_name">Affirmation</string>
+    <string name="evening_song_one_artist">The Electric Sea Gospel</string>
+    <string name="evening_song_two_name">Suspirium</string>
+    <string name="evening_song_two_artist">Thom Yorke</string>
+    <string name="evening_song_three_name">Jungle</string>
+    <string name="evening_song_three_artist">Tash Sultana</string>
+    <string name="evening_song_four_name">Am I Going Insane</string>
+    <string name="evening_song_four_artist">Midlake</string>
+    <string name="evening_song_five_name">While You Wait</string>
+    <string name="evening_song_five_artist">Mark McAdam</string>
+    <string name="evening_song_six_name">It Will End In Tears</string>
+    <string name="evening_song_six_artist">Philip Selway</string>
+
+    <!-- A list of Strings for the relaxList of songs which is stored in the SongListsData Class-->
+    <string name="relax_song_one_name">Beyond This Moment</string>
+    <string name="relax_song_one_artist">Patrick O\'Hearn</string>
+    <string name="relax_song_two_name">The Mountain Between Us</string>
+    <string name="relax_song_two_artist">Ramin Djawadi</string>
+    <string name="relax_song_three_name">We All Complete</string>
+    <string name="relax_song_three_artist">Rachel Portman</string>
+    <string name="relax_song_four_name">When I Looked Up</string>
+    <string name="relax_song_four_artist">We Dream Of Eden</string>
+    <string name="relax_song_five_name">Fargo Main Theme (Season 3)</string>
+    <string name="relax_song_five_artist">Jeff Russo</string>
+    <string name="relax_song_six_name">Wonder</string>
+    <string name="relax_song_six_artist">Gendrial</string>
+
+    <!-- A list of Strings for the drivingList of songs which is stored in the SongListsData Class-->
+    <string name="driving_song_one_name">Dance Monkey</string>
+    <string name="driving_song_one_artist">Tones and I</string>
+    <string name="driving_song_two_name">Yummy</string>
+    <string name="driving_song_two_artist">Justin Bieber</string>
+    <string name="driving_song_three_name">South Of The Border (feat. Camila Cabello and Cardi B</string>
+    <string name="driving_song_three_artist">Ed Sheeran</string>
+    <string name="driving_song_four_name">Goodbyes (feat. Young Thug)</string>
+    <string name="driving_song_four_artist">Post Malone</string>
+    <string name="driving_song_five_name">Cold</string>
+    <string name="driving_song_five_artist">James Blunt</string>
+    <string name="driving_song_six_name">Happier</string>
+    <string name="driving_song_six_artist">Marshmello and Bastille</string>
+
+    <!-- A list of Strings for the Categories' titles, descriptions, and action bar titles-->
+    <string name="popular_category_action_bar_title">Popular Now</string>
+    <string name="popular_category_title">Popular Songs</string>
+    <string name="popular_category_description">Check Out the Popular Streamed Tracks on Vibes</string>
+    <string name="trending_category_action_bar_title">Trending Now</string>
+    <string name="trending_category_title">Trending Songs</string>
+    <string name="trending_category_description">Check Out the Trending Streamed Tracks on Vibes</string>
+    <string name="morning_category_action_bar_title">Morning Songs</string>
+    <string name="morning_category_title">Morning</string>
+    <string name="morning_category_description">Wake Up in a good mood with our energizing morning songs</string>
+    <string name="evening_category_action_bar_title">Evening Songs</string>
+    <string name="evening_category_title">Evening</string>
+    <string name="evening_category_description">Never be indecisive again about what to listen to during the evening</string>
+    <string name="relax_category_action_bar_title">Relax Songs</string>
+    <string name="relax_category_title">Relax</string>
+    <string name="relax_category_description">Kickback and relax with this selection of peaceful music</string>
+    <string name="driving_category_action_bar_title">Driving Songs</string>
+    <string name="driving_category_title">Driving Songs</string>
+    <string name="driving_category_description">The right songs to have in the background while driving</string>
+
+</resources>
+
