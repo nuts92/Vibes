@@ -5,7 +5,7 @@ This is the repository for the Music Player App Project required by the Udacity 
 ### App Description
 
 Vibes App is a Music Player App inspired from the Anghami App that allows the user to explore Different Categories of Music.
-The user can save the Songs he/she likes and view all the saved songs ordered by timestamp in the Library Section. This App doesn't 
+The user can save the songs he/she likes and view all the saved songs ordered by timestamp in the Library Section. This App doesn't 
 actually play Music, it's an app that layout the flow for the structure of a Music Player app.
 
 ### App Design
