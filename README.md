@@ -57,23 +57,25 @@ Once the user signs up with either Google or Email option, the user data is extr
   
 Now the user has signed up successfully and logged in to the MainActivity. The MainActivity consists of a Bottom Navigation where the user can navigate between different sections(fragments) of the App includeing Explore Music, User's Library, and User Profile. The first and main screen that appears to the user when he/she signs in is the Explore Music as shown below. The user can scroll through different categories of Music including Popular Category, Trending Category, Morning Category, Evening Category, Relax Category, and Driving Category.
 
-When the user clicks on any of the songs displayed, the user is redirected to the NowPlaying Activity where he/she can listen to the song chosen and even add it to favorites by clicking on the like button. If the user clicks on the like button, the current song is added to the Firestore database inside the collection "Songs" and the song will be displayed in the User's Library Section. However, if the user unlikes a song then it will be removed from the "Songs" collection in the database and as a result will be removed from the User's Library. The user can view category's lists by clicking for example on the view all button that is next to both the Popular and Trending Categories. Also, the user can view different lists of songs by scrolling to the moods and activities section and clicking on any of these categories.
+When the user clicks on any of the songs displayed, the user is redirected to the NowPlaying Activity where he/she can start listening to the song chosen and even add it to favorites by clicking on the like button. The user can view a Specific Category's List of Songs by clicking for example on the View All Button that is next to both the Popular and Trending Categories. Also, the user can view other lists of songs by scrolling to the Moods and Activities section and clicking on any of the displayed categories as shown below.
 
 ### Explore Music Section Screenshots
   
-<img src="https://media.giphy.com/media/gHyrDerxNUqJiXEsb7/giphy.gif" width="300"> <img src="https://media.giphy.com/media/U6G83sGZWogbZQSNCz/giphy.gif" width="300"> <img src="https://media.giphy.com/media/ZZMg0iDeTt6MJCncVj/giphy.gif" width="300"> 
-
-### FireStore Database Songs Collection Screenshot
- 
-  <img src="https://i.imgur.com/l1NX0rT.png"> 
+<img src="https://media.giphy.com/media/gHyrDerxNUqJiXEsb7/giphy.gif" width="300"> <img src="https://media.giphy.com/media/U6G83sGZWogbZQSNCz/giphy.gif" width="300"> <img src="https://media.giphy.com/media/W35fLvtpbVZ0rPJaf1/giphy.gif" width="300"> 
 
  ### Library Screen
  
-Here the user can view all his/her saved/  or liked songs' list. When the user clicks on any of the songs in the Library's List, the user is redirected to the NowPlayong activity where he/she can start listening to this song as shown below.
+In the NowPlaying Activity, if the user clicks on the like button then the current song will be added to the Firestore database inside the collection "Songs" and the song will be displayed in the User's Library Section. However, if the user unlikes a song then it will be removed from the "Songs" collection in the database and as a result will be removed from the User's Library.
+ 
+The user can view all of his/her saved or liked songs in the Library Section. When the user clicks on any of the songs in the Library's List, the user is redirected to the NowPlayong activity where he/she can start listening to this song as shown below.
 
  ### Library Screen Screenshot
 
 <img src="https://media.giphy.com/media/SV5fisNc9qPHX52dP2/giphy.gif" width="300"> <img src="https://media.giphy.com/media/MbL7bglAe1q6uveBnD/giphy.gif" width="300">
+
+### FireStore Database Songs Collection Screenshot
+ 
+  <img src="https://i.imgur.com/l1NX0rT.png"> 
 
 ### User Profile
   
