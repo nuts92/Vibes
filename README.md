@@ -56,24 +56,25 @@ Once the user signs up with either Google or Email option, the user data is extr
 ### Explore Music Section
   
 Now the user has signed up successfully and logged in to the MainActivity. The MainActivity consists of a Bottom Navigation where the user can navigate between different sections(fragments) of the App includeing Explore Music, User's Library, and User Profile. The first and main screen that appears to the user when he/she signs in is the Explore Music as shown below. The user can scroll through different categories of Music including Popular Category, Trending Category, Morning Category, Evening Category, Relax Category, and Driving Category.
-When the user clicks on any of the songs displayed, the user is directed to the NowPlaying Activity where he/she can listen to the song chosen and even add it to favorites by clicking on the like button. clicks on the Start button, he/she is redirected to a screen where he/she can update the teams' names. Whether the user chooses to update the teams' names or skip this part, he/she will be redirected to the Soccer Counter screen. 
+
+When the user clicks on any of the songs displayed, the user is redirected to the NowPlaying Activity where he/she can listen to the song chosen and even add it to favorites by clicking on the like button. If the user clicks on the like button, the current song is added to the Firestore database inside the collection "Songs" and the song will be displayed in the User's Library Section. However, if the user unlikes a song then it will be removed from the "Songs" collection in the database and as a result will be removed from the User's Library. The user can view category's lists by clicking for example on the view all button that is next to both the Popular and Trending Categories. Also, the user can view different lists of songs by scrolling to the moods and activities section and clicking on any of these categories.
 
 ### Explore Music Section Screenshots
   
-<img src="https://media.giphy.com/media/eH9f28djsTny4Rvf9U/giphy.gif" width="300"> <img src="https://media.giphy.com/media/JsUuAiN2kw1DLY8GvY/giphy.gif" width="300"> <img src="https://media.giphy.com/media/ZZMg0iDeTt6MJCncVj/giphy.gif" width="300"> 
-   
+<img src="https://media.giphy.com/media/gHyrDerxNUqJiXEsb7/giphy.gif" width="300"> <img src="https://media.giphy.com/media/U6G83sGZWogbZQSNCz/giphy.gif" width="300"> <img src="https://media.giphy.com/media/ZZMg0iDeTt6MJCncVj/giphy.gif" width="300"> 
+
+### FireStore Database Songs Collection Screenshot
+ 
+  <img src="https://i.imgur.com/l1NX0rT.png"> 
+
  ### Library Screen
  
-Here the user can track the goals and fouls of both the home team and the away team in real time. When the user is done, he/she can choose to save the game result. When the user saves the game result, a popup card shows up with an animation based on the game result and a call to action that prompts the user to start a new game. Also, A toast message is displayed showing that the game is saved. After that, the goal and foul buttons are disabled, the save game button disappears and the reset button is replaced with start a new game button as shown below.
+Here the user can view all his/her saved/liked songs' list. when the user clicks on any of this songs in the list, the user is redirected to the NowPlayong activity where he/she can start listening to this song as shown below.
 
  ### Library Screen Screenshot
 
-<img src="https://media.giphy.com/media/TJfSUxPjeLuwyvpJI6/giphy.gif" width="300"> <img src="https://media.giphy.com/media/dWkmz9xXymxZf8KfAJ/giphy.gif" width="300"> <img src="https://media.giphy.com/media/hScfE2EAIxjinPOV59/giphy.gif" width="300"> <img src="https://media.giphy.com/media/f7NCKuYhHZkWemIAXK/giphy.gif" width="300"> 
+<img src="https://media.giphy.com/media/TJfSUxPjeLuwyvpJI6/giphy.gif" width="300"> <img src="https://media.giphy.com/media/dWkmz9xXymxZf8KfAJ/giphy.gif" width="300">
 
-The game counter also takes into consideration configuration changes like rotating the device to the landscape mode so that the scores and fouls that the user has entered won't be lost.
-
- <img src="https://i.imgur.com/g5JP54B.png" width="500"> <img src="https://i.imgur.com/up4j2mU.png" width="300">
-   
 ### User Profile
   
 Every user has a profile where the name and the email are displayed along with the profile photo if the user has signed up with the Google option. However, if the user has signed up with the Email option then the displayed photo in the user profile will be the default avatar. Also, every user can have a small self introduction about him/her self and if the user is new meaning signed up for the first time, the self introduction displayed will be the default one as shown below. Every user can choose to update the profile by clicking on the update button and now he/she can choose a profile photo, a display name, and a self introduction that he/she likes. The new updates will be saved in Firestore database and displayed in the user profile as shown below.
