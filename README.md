@@ -73,7 +73,7 @@ Here the user can view all his/her saved/liked songs' list. when the user clicks
 
  ### Library Screen Screenshot
 
-<img src="https://media.giphy.com/media/TJfSUxPjeLuwyvpJI6/giphy.gif" width="300"> <img src="https://media.giphy.com/media/dWkmz9xXymxZf8KfAJ/giphy.gif" width="300">
+<img src="https://media.giphy.com/media/SV5fisNc9qPHX52dP2/giphy.gif" width="300"> <img src="https://media.giphy.com/media/dWkmz9xXymxZf8KfAJ/giphy.gif" width="300">
 
 ### User Profile
   
