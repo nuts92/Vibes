@@ -83,7 +83,7 @@ Every user has a profile where the name and the email are displayed along with t
 
 ### User Profile Screenshots
   
-<img src="https://i.imgur.com/WvsUMZD.png" width="300"> <img src="https://i.imgur.com/WfbU83M.png" width="300">  <img src="https://i.imgur.com/uNcqrnf.png" width="300"> <img src="https://i.imgur.com/EFZ5n6K.png" width="300">
+<img src="https://i.imgur.com/WvsUMZD.png" width="300"> <img src="https://i.imgur.com/uNcqrnf.png" width="300"> <img src="https://i.imgur.com/EFZ5n6K.png" width="300">
 
 ### Dowload the App
 To use this repository, fork/clone it, or download a zip using the green "Clone or download" button at the top of the file list.  
