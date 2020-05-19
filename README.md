@@ -19,7 +19,7 @@ the TrackIt App is opened. It is a simple constant screen that is displayed for 
 
 ### The Splash Screen Screenshot
 
-<img src="https://media.giphy.com/media/Woop2FQ4k7DQfY2Ekj/giphy.gif" width="300">
+<img src="https://media.giphy.com/media/Xy7yI06MqwXUtL5zcq/giphy.gif" width="300">
 
 ### The Vibes Sign Up Process
 
@@ -51,7 +51,7 @@ Once the user signs up with either Google or Email option, the user data is extr
  
 ### FireStore Database Users Collection Screenshot
  
-  <img src="https://i.imgur.com/wrbzccs.png"> 
+  <img src="https://i.imgur.com/jbzuxhh.png"> 
   
 ### Explore Music Section
   
@@ -81,9 +81,6 @@ Every user has a profile where the name and the email are displayed along with t
 ### User Profile Screenshots
   
 <img src="https://i.imgur.com/b7cea32.png" width="300"> <img src="https://i.imgur.com/OPze6Vr.png" width="300">  <img src="https://i.imgur.com/jzqwxzV.png" width="300"> <img src="https://i.imgur.com/V2aywKN.png" width="300"> <img src="https://i.imgur.com/VGCZoMT.png" width="300">
-
-### Creative Assets Copyrights
-All the drawable resources used in this project are all MIT Licensed which are free of Copyrights and can be used without attributions.
 
 ### Dowload the App
 To use this repository, fork/clone it, or download a zip using the green "Clone or download" button at the top of the file list.  
