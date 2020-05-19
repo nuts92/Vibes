@@ -69,11 +69,11 @@ When the user clicks on any of the songs displayed, the user is redirected to th
 
  ### Library Screen
  
-Here the user can view all his/her saved/liked songs' list. when the user clicks on any of this songs in the list, the user is redirected to the NowPlayong activity where he/she can start listening to this song as shown below.
+Here the user can view all his/her saved/  or liked songs' list. When the user clicks on any of the songs in the Library's List, the user is redirected to the NowPlayong activity where he/she can start listening to this song as shown below.
 
  ### Library Screen Screenshot
 
-<img src="https://media.giphy.com/media/SV5fisNc9qPHX52dP2/giphy.gif" width="300"> <img src="https://media.giphy.com/media/dWkmz9xXymxZf8KfAJ/giphy.gif" width="300">
+<img src="https://media.giphy.com/media/SV5fisNc9qPHX52dP2/giphy.gif" width="300"> <img src="https://media.giphy.com/media/MbL7bglAe1q6uveBnD/giphy.gif" width="300">
 
 ### User Profile
   
