@@ -86,4 +86,20 @@ Every user has a profile where the name and the email are displayed along with t
 <img src="https://i.imgur.com/WvsUMZD.png" width="300"> <img src="https://i.imgur.com/uNcqrnf.png" width="300"> <img src="https://i.imgur.com/EFZ5n6K.png" width="300">
 
 ### Dowload the App
-To use this repository, fork/clone it, or download a zip using the green "Clone or download" button at the top of the file list.  
+To use this repository, fork/clone it, or download a zip using the green "Clone or download" button at the top of the file list. 
+
+### License
+
+Copyright 2020 Doha Nabil Saad Kash
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
